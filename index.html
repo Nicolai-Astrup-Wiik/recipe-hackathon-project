@@ -7,15 +7,20 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
-	<title>recipe page</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;700&display=swap" rel="stylesheet">	
+<title>recipe page</title>
 </head>
 <body>
 
 	<div class="recipe-form-page-container visible">
-		<h2>Who's Gordon Ramsey?</h2>
-		<Button> I wanna see Recipes</Button>
+		<div class="recipe-form-page-header">
+			<h2>Who's Gordon Ramsey?</h2>
+			<Button class="recipes-button"> I wanna see Recipes</Button>
+		</div>
 		<div class="recipe-form-container">
-			<h2>Enter your Recipe</h2>
+
 			<form class="recipe-form">
 				<label for="title">Title</label>
 				<input type="text" name="title" class="title" required> 
@@ -31,29 +36,33 @@
 				<input type="text" name="ingredients" class="ingredients" required>
 				<label for="instructions">Instructions</label>
 				<input type="text" name="instructions" class="instructions" required>
-				<button type="submit" class="submit-button">Submit recipe</button>
+
+				<div class="submit-button-container">
+					<button type="submit" class="submit-button">Submit recipe</button>
+				</div>
 			</form>
 		</div>
 	</div>
 
-	<div class="recipe-list-ccontainer">
-		<h2>Who's Gordon Ramsey?</h2>
-		<button class="form-button">I wanna post a recipe</button>
-	<div class="sort-button-header">
-		<button class="filter-button">Vegan</button>
-		<button class="filter-button">Vegitarian</button>
-		<button class="filter-button">Spicy</button>
-		<button class="filter-button">Gluten-free</button>
-	</div>
-		<ul class="recipe-list">
-			<li class="recipe-card">
+	<div class="recipe-list-container">
+		<div class="recipe-list-header">
+			<h2>Who's Gordon Ramsey?</h2>
+			<div class="form-button-container">
+				<button class="form-button">I wanna post a recipe</button>
+			</div>
+		</div>
 
-			</li>
+		<div class="sort-button-header">
+			<button class="filter-button">Vegan</button>
+			<button class="filter-button">Vegitarian</button>
+			<button class="filter-button">Spicy</button>
+			<button class="filter-button">Gluten-free</button>
+		</div>
+			<ul class="recipe-list">
+				<li class="recipe-card">
 
-	
-
-
-		</ul>
+				</li>
+			</ul>
 	</div>
 
 
