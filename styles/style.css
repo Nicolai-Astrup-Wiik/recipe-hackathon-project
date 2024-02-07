@@ -54,6 +54,25 @@ body{
 }
 
 
-.visible{
+/* -------------------------DISPLAY STYLING----------------------------------- */
+.recipe-list-ccontainer{
 	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1rem;
+	width: 100vw;
+}
+
+.filter-button, .form-button{
+	background-color:beige;
+	border-radius: .25rem;
+	height: 3rem;
+	width: 6rem;
+	border: none;
+	margin:2rem;
+}
+
+.visible{
+	display: none;
 }
