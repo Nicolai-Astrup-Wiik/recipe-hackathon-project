@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
 }
 
 
@@ -15,7 +16,44 @@ body{
 	height: 100vh;
 	width: 100vw;
 	background-color: cadetblue;
-	display: flex;
+	display: none;
 	flex-direction: column;
+	align-items: center;
 }
 
+
+.recipe-form-container{
+	background-color: brown;
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+}
+
+
+.recipe-form{
+	display: flex;
+	flex-direction: column;
+	width: 100vh;
+	margin: 5rem;
+}
+
+.title{
+	height: 2rem;
+}
+
+.category{
+
+}
+
+.ingredients{
+	height: 10rem;
+}
+
+.instructions{
+	height: 20rem;
+}
+
+
+.visible{
+	display: flex;
+}
